@@ -1,0 +1,34 @@
+header{
+    @include flex(column, center, center);
+    gap: 7rem;
+    background: linear-gradient(rgba(164, 195, 178, 0.5), rgba(32, 33, 32, 0.6)), url('../assets//imgs/banner.webp') center / cover;
+    
+    height: 100vh;
+
+    text-align: center;
+    color: #F6FFF8;
+    text-shadow: 0 0 10px #6B9080;
+    
+    
+    h1{
+        font-size: 9dvw;
+      
+        
+    }
+    h2{
+       
+        font-size: 3dvh;
+    }
+
+
+    @media screen and (max-width: 750px){
+        h1{
+            font-size: 15dvw;
+    
+        }
+        h2{
+            font-size: 2.8dvh;
+        } 
+    }
+
+}

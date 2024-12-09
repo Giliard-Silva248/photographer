@@ -1,0 +1,93 @@
+nav {
+  background: #6B9080;
+  padding: 2rem 3rem;
+  width: 100%;
+  position: fixed;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4rem;
+  list-style: none;
+}
+ul li a {
+  color: #F6FFF8;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 25px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 30px;
+  height: 3px;
+  background: #F6FFF8;
+}
+
+@media (max-width: 650px) {
+  ul {
+    display: none;
+    flex-direction: column;
+    gap: 2rem;
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: #6B9080;
+    padding: 1rem 0;
+  }
+  .hamburger {
+    display: flex;
+  }
+  ul.active {
+    display: flex;
+    box-shadow: 0px 18px 24px -15px rgba(0, 0, 0, 0.62);
+  }
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  background: linear-gradient(rgba(164, 195, 178, 0.5), rgba(32, 33, 32, 0.6)), url("../assets//imgs/banner.webp") center/cover;
+  height: 100vh;
+  text-align: center;
+  color: #F6FFF8;
+  text-shadow: 0 0 10px #6B9080;
+}
+header h1 {
+  font-size: 9dvw;
+}
+header h2 {
+  font-size: 3dvh;
+}
+@media screen and (max-width: 750px) {
+  header h1 {
+    font-size: 15dvw;
+  }
+  header h2 {
+    font-size: 2.8dvh;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #EAF4F4;
+}/*# sourceMappingURL=index.css.map */

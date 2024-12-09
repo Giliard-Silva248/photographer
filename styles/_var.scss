@@ -1,0 +1,23 @@
+$bgBody: #EAF4F4;
+$bgNav: #6B9080;
+
+
+
+@mixin flex($direction, $justify, $items){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $items;
+}
+
+@mixin mxW(){
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+@mixin font($weight, $style){
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: $weight;
+    font-style: $style;
+}
