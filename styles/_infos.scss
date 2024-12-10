@@ -1,0 +1,19 @@
+.infos{
+    @include mxW();
+    p{
+        height: 50vh;
+        @include paddingSection();
+        @include flex(row, center, center);
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+
+
+    @media(max-width: 500px){
+        p{
+            height: 100vh;
+            @include flex(column, center, center)
+        }
+    }
+}

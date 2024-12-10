@@ -1,7 +1,8 @@
 @import './nav';
 @import './var';
 @import './header';
-
+@import './infos';
+@import './team';
 
 
 *{
@@ -16,5 +17,6 @@ body{
 }
 
 main{
-
+    width: 100%;
+    height: 100%;
 }

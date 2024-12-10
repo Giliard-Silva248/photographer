@@ -1,6 +1,7 @@
 $bgBody: #EAF4F4;
 $bgNav: #6B9080;
-
+$bgSection: #A4C3B2;
+$bgCard: #EAF4F4;
 
 
 @mixin flex($direction, $justify, $items){
@@ -20,4 +21,8 @@ $bgNav: #6B9080;
     font-optical-sizing: auto;
     font-weight: $weight;
     font-style: $style;
+}
+
+@mixin paddingSection(){
+    padding: 5rem 1rem;
 }
