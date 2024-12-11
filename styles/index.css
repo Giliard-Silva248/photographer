@@ -75,7 +75,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 7rem;
-  background: linear-gradient(rgba(17, 17, 17, 0.5), rgb(20, 20, 20)), url("../assets/imgs/banner.webp") center/cover;
+  background: #0A100D;
   text-shadow: 0 0 2px black;
   height: 110vh;
   text-align: center;
@@ -86,16 +86,9 @@ header h1 {
   font-size: 6rem;
   max-width: 1300px;
   margin: 0 auto;
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: italic;
-}
-header p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-  max-width: 400px;
-  font-size: 1.2rem;
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 @media (max-width: 750px) {
   header {
@@ -154,7 +147,9 @@ header p {
   font-size: 4rem;
   font-style: italic;
   text-transform: uppercase;
-  text-decoration: underline;
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .team .container {
   max-width: 1300px;
@@ -269,8 +264,11 @@ header p {
   border-radius: 15px;
 }
 .container-car .container-int h2 {
-  color: #0A100D;
+  color: #ffffff;
   text-transform: uppercase;
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .container-car .container-int .carousel-item {
   text-align: center;
