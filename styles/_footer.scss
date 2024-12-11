@@ -1,0 +1,57 @@
+footer{
+    background: $bgNav;
+     .container{
+        background: $bgNav;
+        @include mxW();
+        @include flex(row, space-around, center);
+        padding: 3rem 0;
+        gap: 1rem;
+        flex-wrap:wrap;
+        flex-grow: 1;
+    .icon {
+        width: 1.3em;
+        height: 1.3em;
+        vertical-align: -0.125em;
+        fill: #F6FFF8;
+    }
+    
+    .cont{
+          @include flex(column, space-around, flex-start);
+          gap: .7rem
+          
+        }
+        .loc{
+          @include flex(column, space-around, flex-start);
+          
+        }
+        .rede-sociais{
+            button{
+                border: none;
+                background: transparent;
+                transition: opacity 0.4s ease-in-out;
+
+                &:hover{
+                    opacity: 0.6;
+                }
+            }
+        }
+        p,button{
+            @include flex(row, center, center);
+            gap: .5rem;
+            color: #F6FFF8;
+            font-weight: 700;
+      }
+    }
+
+    @media(max-width: 600px) {
+        .container{
+            .cont{
+
+                @include flex(row, center, flex-start);
+                flex-wrap: wrap;
+                gap: 1rem;
+            }
+        }
+
+    }
+}

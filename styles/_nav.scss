@@ -2,24 +2,31 @@
 
 nav {
     background: $bgNav;
-    padding: 2rem 3rem;
+    padding: 2rem 3rem 1rem;
     width: 100%;
     position: fixed;
+    z-index: 10;
 }
 ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+    @include flex(row, flex-end, center);
+    text-align: center;
     gap: 4rem;
     list-style: none;
-
+    height: 2rem;
     li { 
-        a {
         color: #F6FFF8;
-        text-decoration: none;
+        a {
+            color: #F6FFF8;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        transition: all 0.4s ease-in-out;
+        &:hover{
+            opacity: 0.5;
+            border-bottom: 1px solid ;
         }
     }
+    
 }
 
 .hamburger {
@@ -31,13 +38,14 @@ ul {
     background: transparent;
     border: none;
     cursor: pointer;
+    div {
+        width: 30px;
+        height: 3px;
+        background: #F6FFF8;
+    }
+    
 }
 
-.hamburger div {
-    width: 30px;
-    height: 3px;
-    background: #F6FFF8;
-}
 
 
 @media (max-width: 650px) {
@@ -56,7 +64,9 @@ ul {
         display: flex;
     }
     ul.active {
+        height: min-content;
         display: flex;
+        z-index: 10;
         -webkit-box-shadow: 0px 18px 24px -15px rgba(0,0,0,0.62);
         -moz-box-shadow: 0px 18px 24px -15px rgba(0,0,0,0.62);
         box-shadow: 0px 18px 24px -15px rgba(0,0,0,0.62);

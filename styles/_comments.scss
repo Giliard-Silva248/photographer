@@ -1,0 +1,35 @@
+.container-car{
+    @include mxW();
+    margin: 5rem auto;
+    @include paddingSection();
+    .container-int{
+        @include paddingSection();
+
+        background: rgba(164, 195, 178);
+        border-radius: 15px;
+        h2{
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+        .carousel-item {
+          text-align: center;
+          padding: 2rem;
+        }
+        .customer-photo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .review-text {
+            font-style: italic;
+        }
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon{
+          background-color: #6B9080;
+          border-radius: 10px;
+          
+        }
+    }
+
+  }

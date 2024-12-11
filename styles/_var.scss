@@ -16,13 +16,13 @@ $bgCard: #EAF4F4;
     margin: 0 auto;
 }
 
-@mixin font($weight, $style){
-    font-family: "Raleway", serif;
-    font-optical-sizing: auto;
-    font-weight: $weight;
-    font-style: $style;
-}
-
 @mixin paddingSection(){
     padding: 5rem 1rem;
+}
+
+@mixin poppins($weight, $style){
+    font-family: "Poppins", sans-serif;
+    font-weight: $weight;
+    font-style: $style;
+    
 }
