@@ -5,10 +5,10 @@
     .container-int{
         @include paddingSection();
 
-        background: rgba(164, 195, 178);
+        background: $bgSection;
         border-radius: 15px;
         h2{
-            color: #ffffff;
+            color: #0A100D;
             text-transform: uppercase;
         }
         .carousel-item {
@@ -26,10 +26,11 @@
         }
         .carousel-control-prev-icon,
         .carousel-control-next-icon{
-          background-color: #6B9080;
+          background-color: #0A100D;
           border-radius: 10px;
           
         }
+
     }
 
   }

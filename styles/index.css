@@ -1,5 +1,5 @@
 nav {
-  background: #6B9080;
+  background: #0A100D;
   padding: 2rem 3rem 1rem;
   width: 100%;
   position: fixed;
@@ -55,7 +55,7 @@ ul li:hover {
     top: 99%;
     left: 0;
     right: 0;
-    background: #6B9080;
+    background: #0A100D;
     padding: 1rem 0;
   }
   .hamburger {
@@ -76,7 +76,6 @@ header {
   align-items: center;
   gap: 7rem;
   background: linear-gradient(rgba(17, 17, 17, 0.5), rgb(20, 20, 20)), url("../assets/imgs/banner.webp") center/cover;
-  background-color: black;
   text-shadow: 0 0 2px black;
   height: 110vh;
   text-align: center;
@@ -118,6 +117,7 @@ header p {
 .infos {
   max-width: 1300px;
   margin: 0 auto;
+  padding: 1rem 0;
 }
 .infos p {
   height: 50vh;
@@ -132,7 +132,7 @@ header p {
   text-align: center;
   font-size: 1.8rem;
   font-style: italic;
-  color: #6B9080;
+  color: #0A100D;
 }
 @media (max-width: 500px) {
   .infos p {
@@ -145,13 +145,13 @@ header p {
 }
 
 .team {
-  background: #A4C3B2;
+  background: #B9BAA3;
 }
 .team h2 {
-  color: #F6FFF8;
-  text-align: center;
-  padding: 3rem 0 0;
-  font-size: 5rem;
+  color: #ffffff;
+  padding: 3rem 1rem;
+  font-size: 4rem;
+  font-style: italic;
   text-transform: uppercase;
   text-decoration: underline;
 }
@@ -175,7 +175,7 @@ header p {
   height: 30rem;
   padding: 2rem 1rem;
   gap: 0.8rem;
-  border: 4px solid #6B9080;
+  border: 4px solid #A22C29;
   border-radius: 15px;
   background: #EAF4F4;
   box-shadow: 10px 10px 25px -4px rgba(0, 0, 0, 0.75);
@@ -188,8 +188,8 @@ header p {
   height: 10rem;
   -o-object-fit: cover;
      object-fit: cover;
-  border: 2px solid #6B9080;
-  background: #6B9080;
+  border: 2px solid #A22C29;
+  background: #0A100D;
   border-radius: 50%;
   box-shadow: 2px 13px 25px -11px rgba(0, 0, 0, 0.75);
 }
@@ -198,22 +198,20 @@ header p {
   font-size: 1rem;
 }
 .team .container .card p:nth-of-type(1) {
-  color: #6B9080;
+  color: #902923;
   text-decoration: underline;
   font-weight: 700;
 }
 .team .container .card p:nth-of-type(2) {
   text-align: justify;
 }
-
-.gallery h2 {
-  color: #6B9080;
-  text-align: center;
-  padding: 3rem 0;
-  font-size: 5rem;
-  text-transform: uppercase;
-  text-decoration: underline;
+@media (max-width: 450px) {
+  .team h2 {
+    text-align: center;
+    padding: 1rem;
+  }
 }
+
 .gallery .photos {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -272,11 +270,11 @@ header p {
 }
 .container-car .container-int {
   padding: 5rem 1rem;
-  background: rgb(164, 195, 178);
+  background: #B9BAA3;
   border-radius: 15px;
 }
 .container-car .container-int h2 {
-  color: #ffffff;
+  color: #0A100D;
   text-transform: uppercase;
 }
 .container-car .container-int .carousel-item {
@@ -295,15 +293,15 @@ header p {
 }
 .container-car .container-int .carousel-control-prev-icon,
 .container-car .container-int .carousel-control-next-icon {
-  background-color: #6B9080;
+  background-color: #0A100D;
   border-radius: 10px;
 }
 
 footer {
-  background: #6B9080;
+  background: #0A100D;
 }
 footer .container {
-  background: #6B9080;
+  background: #0A100D;
   max-width: 1300px;
   margin: 0 auto;
   display: flex;
@@ -369,7 +367,7 @@ footer .container p, footer .container button {
 }
 
 body {
-  background: #EAF4F4;
+  background: #D6D5C9;
   margin: 0;
   padding: 0;
   height: -moz-max-content;

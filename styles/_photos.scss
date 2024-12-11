@@ -1,13 +1,5 @@
 .gallery{
-    h2{
-        color: #6B9080;
-        text-align: center;
-        padding: 3rem 0 ;
-        font-size: 5rem;
-        text-transform: uppercase;
-        text-decoration: underline;
 
-    }
     .photos{
         margin: 0;
         font-family: Arial, sans-serif;
@@ -57,9 +49,11 @@
           }
           
           @media (max-width: 480px) {
+  
             .masonry {
               column-count: 1;
             }
         }
     }
+
 }

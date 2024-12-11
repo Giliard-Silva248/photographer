@@ -1,5 +1,6 @@
 .infos{
     @include mxW();
+    padding: 1rem 0;
     p{
         height: 50vh;
         @include paddingSection();
@@ -10,7 +11,7 @@
         text-align: center;
         font-size: 1.8rem;
         font-style: italic;
-        color: #6B9080;
+        color: $fontTitle;
     }
 
 

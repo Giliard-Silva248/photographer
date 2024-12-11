@@ -2,7 +2,6 @@ header{
     @include flex(column, center, center);
     gap: 7rem;
     background: linear-gradient(rgba(17, 17, 17, 0.5), rgba(20, 20, 20, 1)), url('../assets/imgs/banner.webp') center / cover;
-    background-color: black;
     text-shadow: 0 0 2px black;
     height: 110vh;
     text-align: center;
