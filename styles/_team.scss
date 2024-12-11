@@ -3,6 +3,7 @@
     h2{
         color: #ffffff;
         padding: 3rem 1rem ;
+        text-align: center;
         font-size: 4rem;
         font-style: italic;
         text-transform: uppercase;
@@ -57,11 +58,5 @@
         }
     }
 
-    @media(max-width:450px){
-        h2{
-            text-align: center;
-            padding: 1rem;
-        }
 
-    }
 }
